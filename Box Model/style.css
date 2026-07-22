@@ -1,0 +1,112 @@
+body {
+    background-color: #6877cf;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Introdução */
+.intro {
+    height: 550px;
+}
+
+/* Remove o painel Design Archives */
+#design-archives {
+    display: none;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #3e3ef7;
+    color: rgb(255, 253, 253);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+}
+
+/* Título principal */
+header h1 {
+    color: rgb(2, 0, 70);
+    font-size: 1.8rem;
+    padding-left: 1em;
+    margin: 0;
+    flex: 1;
+}
+
+/* Subtítulo */
+header h2 {
+    color: rgb(131, 216, 156);
+    font-size: 1.4rem;
+    margin: 0;
+    text-align: right;
+    flex: 1;
+}
+
+/* Demais títulos */
+h3 {
+    color: #070711;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #0000ff;
+}
+
+/* Parágrafos */
+p {
+    text-indent: 1em;
+}
+
+/* Resumo */
+.summary {
+    text-align: center;
+}
+
+/* Conteúdo principal */
+.main p {
+    line-height: 1.5;
+}
+
+/* Abreviações */
+abbr {
+    font-variant: small-caps;
+}
+
+/* Menu lateral */
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+/* Rodapé */
+footer {
+    background-color: #070711;
+    color: white;
+
+    margin: 4%;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Links do rodapé */
+footer a {
+    color: white;
+    border: 2px solid white;
+    padding: 0.5em;
+    margin: 0 0.3em;
+    text-decoration: none;
+    display: inline-block;
+}
