@@ -1,0 +1,117 @@
+body {
+    background-color: #6877cf;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+.intro {
+    height: 550px;
+}
+
+#design-archives {
+    display: none;
+}
+
+header {
+    background-color: #3e3ef7;
+    color: rgb(255, 253, 253);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+}
+
+header h1 {
+    color: rgb(2, 0, 70);
+    font-size: 1.8rem;
+    padding-left: 1em;
+    margin: 0;
+    flex: 1;
+}
+
+header h2 {
+    color: rgb(131, 216, 156);
+    font-size: 1.4rem;
+    margin: 0;
+    text-align: right;
+    flex: 1;
+}
+
+h3 {
+    color: #070711;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+a {
+    color: #0000ff;
+}
+
+p {
+    text-indent: 1em;
+}
+
+.summary {
+    text-align: center;
+}
+
+.main p {
+    line-height: 1.5;
+}
+
+abbr {
+    font-variant: small-caps;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+footer {
+    background-color: #070711;
+    color: white;
+
+    margin: 4%;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    border: 2px solid white;
+    padding: 0.5em;
+    margin: 0 0.3em;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.page-wrapper {
+    position: relative;
+}
+
+.explanation {
+    width: 60%;
+    margin-right: 35%;
+    border-right: 1px solid #1f295c;
+    padding-right: 2%;
+}
+
+.design-selection {
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    padding: 0 2%;
+}
